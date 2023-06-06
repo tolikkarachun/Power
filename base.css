@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+}
+
 body {
   padding: 95px;
   margin: 0;
@@ -9,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
-  background-repeat: none-repead;
+  background-repeat: no-repeat;
   color: #fff;
 }
 ul {
@@ -23,4 +28,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+.burger-icon { 
+  cursor: pointer;
+  display: none;
 }
